@@ -1,14 +1,15 @@
-Sistema de Gerenciamento.
+# Engipec - Sistema de Gerenciamento
 
-Sistema de gerenciamento de funcionários e artigos.
+Sistema de gerenciamento de funcionários e artigos desenvolvido para a Engipec.
 
-Obs: Esse sistema é apenas para que possa ser testado as suas funcionalidades, não conta com banco de dados integrado, apenas local.
+**Obs: Esse sistema é apenas para teste de funcionalidades, só conta com banco de dados local.**
 
 ## Funcionalidades
 
 - Sistema de autenticação para admin e funcionários
 - Gerenciamento de funcionários (CRUD completo)
 - Gerenciamento de artigos
+- Perfil de funcionário com foto
 - Dashboard administrativo
 - Sistema de categorias para artigos
 - Gerenciamento de cargos e departamentos
@@ -19,15 +20,14 @@ Obs: Esse sistema é apenas para que possa ser testado as suas funcionalidades, 
 - TypeScript
 - Tailwind CSS
 - Shadcn/ui
-- React
-- Radix-ui
+- React Hook Form
 - Zod
 - Context API
 
 ## Pré-requisitos
 
 - Node.js (versão 14 ou superior)
-- npm
+- npm ou yarn
 
 ## Instalação
 
@@ -44,10 +44,12 @@ cd engipec-siteBlog
 3. Instale as dependências:
 ```bash
 npm install
+```
 
 4. Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
+```
 
 5. Acesse o sistema em `http://localhost:5173`
 
@@ -67,6 +69,8 @@ src/
   ├── pages/         # Páginas da aplicação
   └── styles/        # Estilos globais
 ```
+
+
 
 ## Licença
 
