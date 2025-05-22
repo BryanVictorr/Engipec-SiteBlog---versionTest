@@ -1,13 +1,14 @@
-# Engipec - Sistema de Gerenciamento
+Sistema de Gerenciamento.
 
-Sistema de gerenciamento de funcionários e artigos desenvolvido para a Engipec.
+Sistema de gerenciamento de funcionários e artigos.
+
+Obs: Esse sistema é apenas para que possa ser testado as suas funcionalidades, não conta com banco de dados integrado, apenas local.
 
 ## Funcionalidades
 
 - Sistema de autenticação para admin e funcionários
 - Gerenciamento de funcionários (CRUD completo)
 - Gerenciamento de artigos
-- Perfil de funcionário com foto
 - Dashboard administrativo
 - Sistema de categorias para artigos
 - Gerenciamento de cargos e departamentos
@@ -18,14 +19,15 @@ Sistema de gerenciamento de funcionários e artigos desenvolvido para a Engipec.
 - TypeScript
 - Tailwind CSS
 - Shadcn/ui
-- React Hook Form
+- React
+- Radix-ui
 - Zod
 - Context API
 
 ## Pré-requisitos
 
 - Node.js (versão 14 ou superior)
-- npm ou yarn
+- npm
 
 ## Instalação
 
@@ -42,16 +44,10 @@ cd engipec-siteBlog
 3. Instale as dependências:
 ```bash
 npm install
-# ou
-yarn install
-```
 
 4. Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
-# ou
-yarn dev
-```
 
 5. Acesse o sistema em `http://localhost:5173`
 
@@ -71,14 +67,6 @@ src/
   ├── pages/         # Páginas da aplicação
   └── styles/        # Estilos globais
 ```
-
-## Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Faça commit das suas alterações (`git commit -m 'Add some AmazingFeature'`)
-4. Faça push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
 
 ## Licença
 
