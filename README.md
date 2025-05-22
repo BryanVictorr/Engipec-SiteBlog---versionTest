@@ -2,7 +2,7 @@ Sistema de Gerenciamento
 
 Sistema de gerenciamento de funcionários e artigos.
 
-**Obs: Esse sistema é apenas para teste de funcionalidades, só conta com banco de dados local.**
+**Obs: Esse sistema é apenas para teste de funcionalidades, conta com banco de dados apenas local.**
 
 ## Funcionalidades
 
