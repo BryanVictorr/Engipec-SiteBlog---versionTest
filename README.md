@@ -1,6 +1,6 @@
-# Engipec - Sistema de Gerenciamento
+Sistema de Gerenciamento
 
-Sistema de gerenciamento de funcionários e artigos desenvolvido para a Engipec.
+Sistema de gerenciamento de funcionários e artigos.
 
 **Obs: Esse sistema é apenas para teste de funcionalidades, só conta com banco de dados local.**
 
